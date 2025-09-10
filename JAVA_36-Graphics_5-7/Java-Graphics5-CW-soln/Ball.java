@@ -1,0 +1,46 @@
+import java.awt.*;
+import javax.swing.*;
+
+class Ball{
+  int x,y;
+  int dx,dy;
+  int diameter;
+  Color color;
+  
+  Ball(int x, int y,
+       int dx, int dy, int diameter, Color color){    
+    this.x = x;
+    this.y = y;
+    this.dx = dx;
+    this.dy = dy;    
+    this.diameter = diameter;
+    this.color = color;
+  }
+  
+    void move(){
+      //Move the ball
+      this.y += this.dy;
+      this.x += this.dx;
+
+      if(this.y > Game.height){
+        this.y = 0;
+      }
+      if(this.x > Game.width){
+        this.x = 0;
+      }
+
+      drawBall();
+    }
+  
+  void drawBall(){
+      // circle      
+      Game.canvas.setColor(this.color);
+      Game.canvas.fillOval(this.x, this.y, 
+                           this.diameter,
+                           this.diameter);
+      Game.canvas.setColor(Color.black);
+      Game.canvas.drawOval(this.x, this.y, 
+                           this.diameter,
+                           this.diameter);    
+  }
+}

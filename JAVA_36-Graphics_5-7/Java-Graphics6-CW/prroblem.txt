@@ -1,0 +1,3 @@
+Problem:
+
+Modify the code that stop the ball when the mouse is over the ball (i.e, the ball stops moving when the mouse collides with ball)
