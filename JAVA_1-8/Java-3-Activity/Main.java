@@ -4,6 +4,7 @@ class Main {
   }
 
   // Init function runs when the program begins
+  // comment
   void init(){
     //Print your full name
     System.out.println("Adam Smith");
