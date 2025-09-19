@@ -16,7 +16,7 @@ class Main {
     To avoid integer division, ensure that either the numerator or the denominator (or both) is not an integer. Preferably make it a double.   
     */
     System.out.println("Avoiding integer division");
-	System.out.println(3/2); // will produce an inaccurate result
+	  System.out.println(3/2); // will produce an inaccurate result
 	
     System.out.println(3.0/2);
     

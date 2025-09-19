@@ -12,7 +12,7 @@ class Main {
     2) number of people that live with you
     3) number of items in a cart 
 */
-   
+
 
 
 /*  Challenge 2:
