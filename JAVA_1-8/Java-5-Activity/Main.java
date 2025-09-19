@@ -10,9 +10,10 @@ class Main {
     Calculate the sum of the two numbers, store the 
     calculated sum and then display it.    
 */
+  double sum =0;
   int num1 = 5;
   int num2 = 100;
-  int sum = num1 + num2;
+  sum = num1 + num2;
   System.out.println("Sum is "+ sum); // the '+' represents string concatenation
 
 /*  
