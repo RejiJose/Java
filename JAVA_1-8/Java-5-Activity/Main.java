@@ -24,6 +24,8 @@ class Main {
 */
 
 
+
+
 // ****NOTE**** Since the variable 'sum' was declared earlier as an integer, you 
 // don't need to declare it again. If you do so, you will get a syntax error.
 
@@ -36,6 +38,7 @@ class Main {
     Declare and assign values to any new variables.
     NOTE: Does it look correct, check with a calculator?
 */
+
 
 
 // **** NOTE **** since sum is an integer we don't want to divide by another integer
